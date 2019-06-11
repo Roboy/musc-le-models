@@ -1,5 +1,5 @@
 <sdf version="1.6">
-	<model name="musc-le">
+	<model name="musc_le">
 		<link name="base">
 			<kinematic>true</kinematic>
 			<self_collide>false</self_collide>
@@ -19,7 +19,7 @@
 			<collision name="base_collision">
 				<geometry>
 					<mesh>
-						<uri>model://musc-le/meshes/collisions/base.dae</uri>
+						<uri>model://musc_le/meshes/collisions/base.dae</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -27,7 +27,7 @@
 			<visual name="base_visual">
 				<geometry>
 					<mesh>
-						<uri>model://musc-le/meshes/visuals/base.dae</uri>
+						<uri>model://musc_le/meshes/visuals/base.dae</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -51,7 +51,7 @@
 			<collision name="lower_arm_collision">
 				<geometry>
 					<mesh>
-						<uri>model://musc-le/meshes/collisions/lower_arm.dae</uri>
+						<uri>model://musc_le/meshes/collisions/lower_arm.dae</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -59,7 +59,7 @@
 			<visual name="lower_arm_visual">
 				<geometry>
 					<mesh>
-						<uri>model://musc-le/meshes/visuals/lower_arm.dae</uri>
+						<uri>model://musc_le/meshes/visuals/lower_arm.dae</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -83,7 +83,7 @@
 			<collision name="upper_arm_collision">
 				<geometry>
 					<mesh>
-						<uri>model://musc-le/meshes/collisions/upper_arm.dae</uri>
+						<uri>model://musc_le/meshes/collisions/upper_arm.dae</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>
@@ -91,7 +91,7 @@
 			<visual name="upper_arm_visual">
 				<geometry>
 					<mesh>
-						<uri>model://musc-le/meshes/visuals/upper_arm.dae</uri>
+						<uri>model://musc_le/meshes/visuals/upper_arm.dae</uri>
 						<scale>0.001 0.001 0.001</scale>
 					</mesh>
 				</geometry>

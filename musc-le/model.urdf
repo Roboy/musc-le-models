@@ -1,4 +1,4 @@
-<robot name="musc-le">
+<robot name="musc_le">
   <joint name="upper_joint" type="revolute">
     <parent link="lower_arm" />
     <child link="upper_arm" />
@@ -22,13 +22,13 @@
     <collision name="base_collision">
       <origin rpy="0  0  0" xyz="0.23957  0.30164 -0.00404" />
       <geometry>
-        <mesh filename="package://robots/musc-le/meshes/collisions/base.dae" scale="0.001 0.001 0.001" />
+        <mesh filename="package://robots/musc_le/meshes/collisions/base.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="base_visual">
       <origin rpy="0  0  0" xyz="0.23957  0.30164 -0.00404" />
       <geometry>
-        <mesh filename="package://robots/musc-le/meshes/visuals/base.dae" scale="0.001 0.001 0.001" />
+        <mesh filename="package://robots/musc_le/meshes/visuals/base.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -41,13 +41,13 @@
     <collision name="lower_arm_collision">
       <origin rpy="0  0  0" xyz="1.68300000e-02   8.00000000e-05   2.29630000e-01" />
       <geometry>
-        <mesh filename="package://robots/musc-le/meshes/collisions/lower_arm.dae" scale="0.001 0.001 0.001" />
+        <mesh filename="package://robots/musc_le/meshes/collisions/lower_arm.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="lower_arm_visual">
       <origin rpy="0  0  0" xyz="1.68300000e-02   8.00000000e-05   2.29630000e-01" />
       <geometry>
-        <mesh filename="package://robots/musc-le/meshes/visuals/lower_arm.dae" scale="0.001 0.001 0.001" />
+        <mesh filename="package://robots/musc_le/meshes/visuals/lower_arm.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -60,13 +60,13 @@
     <collision name="upper_arm_collision">
       <origin rpy="0  0  0" xyz="4.82000000e-03   3.00000000e-05   1.37750000e-01" />
       <geometry>
-        <mesh filename="package://robots/musc-le/meshes/collisions/upper_arm.dae" scale="0.001 0.001 0.001" />
+        <mesh filename="package://robots/musc_le/meshes/collisions/upper_arm.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual name="upper_arm_visual">
       <origin rpy="0  0  0" xyz="4.82000000e-03   3.00000000e-05   1.37750000e-01" />
       <geometry>
-        <mesh filename="package://robots/musc-le/meshes/visuals/upper_arm.dae" scale="0.001 0.001 0.001" />
+        <mesh filename="package://robots/musc_le/meshes/visuals/upper_arm.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
