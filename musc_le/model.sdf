@@ -106,8 +106,8 @@
 				<limit>
 					<!-- <lower>-1.3962634015954636</lower>
 					<upper>1.3962634015954636</upper> -->
-					<lower>-0.6471975511965976</lower>
-					<upper>0.6471975511965976</upper>
+					<lower>-0.647</lower>
+					<upper>0.647</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
@@ -119,8 +119,8 @@
 			<axis>
 				<xyz>-1.0 2.3876466213831606e-16 7.771561172376107e-16</xyz>
 				<limit>
-					<lower>-1.0471975511965976</lower>
-					<upper>1.0471975511965976</upper>
+					<lower>-0.8727</lower>
+					<upper>0.8727</upper>
 				</limit>
 				<use_parent_model_frame>0</use_parent_model_frame>
 			</axis>
