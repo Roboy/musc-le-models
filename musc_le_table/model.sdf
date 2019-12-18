@@ -555,9 +555,9 @@
         </surface>
       </collision>
     </link>
-    <model name='table'>
-      <static>1</static>
-      <link name='link'>
+    <!-- <model name='table'>
+      <static>1</static> -->
+      <link name='table_link'>
         <collision name='surface'>
           <pose frame=''>0 0 1 0 -0 0</pose>
           <geometry>
@@ -747,12 +747,29 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
+        <pose frame=''>0.103176 0.314213 0.965347 3.14159 0.003412 3.14159</pose>
       </link>
-      <pose frame=''>0.103176 0.314213 0.965347 3.14159 0.003412 3.14159</pose>
-    </model>
+    <!-- </model> -->
     <joint name='ball_joint' type='fixed'>
       <parent>upper_arm</parent>
       <child>cricket_ball_200g</child>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <physics>
+        <ode>
+          <limit>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </limit>
+          <suspension>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </suspension>
+        </ode>
+      </physics>
+    </joint>
+    <joint name='table_joint' type='fixed'>
+      <parent>base</parent>
+      <child>table_link</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <physics>
         <ode>
