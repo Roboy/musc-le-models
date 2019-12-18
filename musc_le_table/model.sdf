@@ -114,7 +114,7 @@
             <radius>0.0375</radius>
           </sphere>
         </geometry>
-        <material>
+<!--         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
             <name>Gazebo/Red</name>
@@ -126,7 +126,7 @@
           <diffuse>1 0 0 1</diffuse>
           <specular>0.1 0.1 0.1 1</specular>
           <emissive>0 0 0 1</emissive>
-        </material>
+        </material> -->
         <pose frame=''>0 0 0 0 -0 0</pose>
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
@@ -215,7 +215,7 @@
             <radius>0.0375</radius>
           </sphere>
         </geometry>
-        <material>
+<!--         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
             <name>Gazebo/Red</name>
@@ -223,7 +223,7 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-        </material>
+        </material> -->
         <pose frame=''>0 0 0 0 -0 0</pose>
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
@@ -312,7 +312,7 @@
             <radius>0.0375</radius>
           </sphere>
         </geometry>
-        <material>
+<!--         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
             <name>Gazebo/Red</name>
@@ -324,7 +324,7 @@
           <diffuse>1 0 0 1</diffuse>
           <specular>0.1 0.1 0.1 1</specular>
           <emissive>0 0 0 1</emissive>
-        </material>
+        </material> -->
         <pose frame=''>0 0 0 0 -0 0</pose>
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
@@ -589,12 +589,12 @@
               <size>1.5 0.8 0.03</size>
             </box>
           </geometry>
-          <material>
+<!--           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/Wood</name>
             </script>
-          </material>
+          </material> -->
         </visual>
         <collision name='front_left_leg'>
           <pose frame=''>0.68 0.38 0.5 0 -0 0</pose>
@@ -626,12 +626,12 @@
               <length>1</length>
             </cylinder>
           </geometry>
-          <material>
+<!--           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/Grey</name>
             </script>
-          </material>
+          </material> -->
         </visual>
         <collision name='front_right_leg'>
           <pose frame=''>0.68 -0.38 0.5 0 -0 0</pose>
@@ -663,12 +663,12 @@
               <length>1</length>
             </cylinder>
           </geometry>
-          <material>
+<!--           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/Grey</name>
             </script>
-          </material>
+          </material> -->
         </visual>
         <collision name='back_right_leg'>
           <pose frame=''>-0.68 -0.38 0.5 0 -0 0</pose>
@@ -700,12 +700,12 @@
               <length>1</length>
             </cylinder>
           </geometry>
-          <material>
+<!--           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/Grey</name>
             </script>
-          </material>
+          </material> -->
         </visual>
         <collision name='back_left_leg'>
           <pose frame=''>-0.68 0.38 0.5 0 -0 0</pose>
@@ -737,12 +737,12 @@
               <length>1</length>
             </cylinder>
           </geometry>
-          <material>
+<!--           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/Grey</name>
             </script>
-          </material>
+          </material> -->
         </visual>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
