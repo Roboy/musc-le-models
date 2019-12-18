@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='musc_le'>
+  <model name='musc_le_table'>
     <link name='base'>
       <kinematic>1</kinematic>
       <self_collide>0</self_collide>
