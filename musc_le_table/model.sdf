@@ -21,7 +21,7 @@
       <visual name='base_visual'>
         <geometry>
           <mesh>
-            <uri>model://musc_le/meshes/visuals/base.dae</uri>
+            <uri>model://musc_le_table/meshes/visuals/base.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -35,7 +35,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://musc_le/meshes/collisions/base.dae</uri>
+            <uri>model://musc_le_table/meshes/collisions/base.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -405,7 +405,7 @@
       <visual name='lower_arm_visual'>
         <geometry>
           <mesh>
-            <uri>model://musc_le/meshes/visuals/lower_arm.dae</uri>
+            <uri>model://musc_le_table/meshes/visuals/lower_arm.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -419,7 +419,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://musc_le/meshes/collisions/lower_arm.dae</uri>
+            <uri>model://musc_le_table/meshes/collisions/lower_arm.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -490,7 +490,7 @@
       <visual name='upper_arm_visual'>
         <geometry>
           <mesh>
-            <uri>model://musc_le/meshes/visuals/upper_arm.dae</uri>
+            <uri>model://musc_le_table/meshes/visuals/upper_arm.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -504,7 +504,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://musc_le/meshes/collisions/upper_arm.dae</uri>
+            <uri>model://musc_le_table/meshes/collisions/upper_arm.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
